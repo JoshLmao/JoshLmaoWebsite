@@ -4,8 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
+:root {
+  --primary: rgb(42, 124, 161);
+  --secondary: #2C3E50;
+
+  --text-primary: #FFFFFF;
+  --text-secondary: #FFFFFF;
+
+  --hover-primary: rgb(67, 188, 245);
+}
+
 body {
   font-family: 'Lato';
+  background: var(--secondary);
 }
 
 h1,
@@ -49,7 +60,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: var(--primary);
 }
 
 hr.star-dark {
@@ -124,7 +135,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: var(--primary);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -132,7 +143,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: var(--primary);
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +168,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: var(--primary);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: var(--primary);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -336,11 +347,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: var(--hover-primary);
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: var(--hover-primary);
 }
 
 .btn {
@@ -348,29 +359,29 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: var(--primary) !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: var(--secondary) !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: var(--text-primary) !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: var(--text-secondary) !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: var(--hover-primary);
+  border-color: var(--hover-primary);
 }
 
 .btn-secondary {
