@@ -10,6 +10,8 @@
   <meta name="author" content="">
 
   <title>JoshLmao</title>
+  <!-- Page Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +81,9 @@
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://connect.unity.com/u/josh-shepherd">
-                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                <svg class="mb-1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                  <path d="M166.872 131.237l45.91-79.275 22.184 79.275-22.185 79.256-45.909-79.256zm-22.376 12.874l45.916 79.262-79.966-20.486-57.77-58.776h91.82zm45.906-105.033l-45.906 79.275h-91.82l57.77-58.78 79.956-20.495zm65.539 65.18L227.933.06l-104.54 27.925-15.475 27.207-31.401-.225L0 131.244l76.517 76.259h.003l31.388-.232 15.497 27.207 104.528 27.92L255.94 158.22l-15.906-26.982 15.906-26.978z" fill="#FFFFFF"/>
+                </svg>
               </a>
             </li>
             <li class="list-inline-item">
@@ -94,11 +98,6 @@
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://instagram.com/JoshLmao">
                 <i class="fab fa-fw fa-instagram"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://open.spotify.com/user/1121645175?si=XK2fXtbKSrSEhy_wYW3cBw">
-                <i class="fab fa-fw fa-spotify"></i>
               </a>
             </li>
           </ul>
@@ -271,11 +270,20 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary mb-5">Artifact Match History</h2>
-            <a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory" target="_blank"><img class="img-fluid mb-5" src="img/portfolio/artifacthistory.png" alt=""></a>
+            <a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory" target="_blank">
+              <img class="img-fluid mb-3" src="img/portfolio/artifacthistory.png" alt="">
+            </a>
             <p class="mb-3 text-primary">
               Artifact Match History is a small project I created in December 2018 to January 2019 as a tool for the Valve's new DotA 2 card game, Artifact.
+              I originally mcreated it as a WPF application but later converted the functionality into a website.
             </p>
-            <h3 class="text-primary mb-4">Website: <a href="https://artifacthistory.joshlmao.com" target="_blank">ArtifactHistory.joshlmao.com</a></h3>
+            <h3 class="text-primary mb-2">
+              Website: 
+              <a href="https://artifacthistory.joshlmao.com" target="_blank">ArtifactHistory.joshlmao.com</a>
+            </h3>
+            <h3 class="text-primary mb-4">
+              Repository: <a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory" target="_blank">Github</a>
+            </h3>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project
@@ -296,7 +304,9 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary mb-5">Spotify 4 Unity</h2>
-              <a href="https://github.com/JoshLmao/Spotify4Unity"><img class="img-fluid mb-5" src="img/portfolio/spotify4unity.png" alt=""></a>
+              <a href="https://github.com/JoshLmao/Spotify4Unity">
+                <img class="img-fluid mb-3" src="img/portfolio/spotify4unity.png" alt="">
+              </a>
               <p class="mb-3 text-primary">
                 Spotify 4 Unity is an asset for Unity which helps to integrate the open source <a href="https://github.com/JohnnyCrazy/SpotifyAPI-NET">'SpotifyAPI'</a> into Unity with easy UI prefabs and utility classes to help.
                 The package has been on the store since October 2018 and is currently being worked on and updated. 
@@ -324,12 +334,20 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-5">Weave</h2>
-            <img class="img-fluid mb-5" src="img/portfolio/weave.png" alt="">
-            <p class="mb-5 text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <h2 class="text-secondary mb-5">Weave: The Game</h2>
+            <a href="https://play.google.com/store/apps/details?id=com.JoshLmao.Weave&hl=en_GB">
+              <img class="img-fluid mb-3" src="img/portfolio/weave.png" alt="">
+            </a>
+            <p class="mb-3 text-primary">
+              Weave is my first attempt to create my own mobile game. It's a simple game concept about gaining the most score and trying to beat everybody else on the leaderboard.
+            </p>
+            <h3 class="text-primary mb-4">
+              Play Store: <a href="https://play.google.com/store/apps/details?id=com.JoshLmao.Weave&hl=en_GB" target="_blank">Weave: The Game</a>
+            </h3>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
-              Close Project</a>
+              Close Project
+            </a>
           </div>
         </div>
       </div>
@@ -345,12 +363,20 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-5">Lumière</h2>
-            <img class="img-fluid mb-5" src="img/portfolio/lumiere.png" alt="">
-            <p class="mb-5 text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <h2 class="text-secondary mb-5">Lumière - Ludum Date 39</h2>
+            <a href="https://joshlmao.itch.io/lumiere">
+              <img class="img-fluid mb-3" src="img/portfolio/lumiere.png" alt="">
+            </a>
+            <p class="mb-3 text-primary">
+                Lumière is my first attempt at creating a game created by myself in August 2017. I created it for Ludum Dare 39 which had the theme of "Running out of power".
+            </p>
+            <h3 class="text-primary mb-4">
+                Play: <a href="https://joshlmao.itch.io/lumiere" target="_blank">Itch.io</a>
+              </h3>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
-              Close Project</a>
+              Close Project
+            </a>
           </div>
         </div>
       </div>
@@ -372,7 +398,8 @@
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
-              Close Project</a>
+              Close Project
+            </a>
           </div>
         </div>
       </div>
