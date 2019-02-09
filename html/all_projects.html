@@ -26,7 +26,12 @@
 
   <!-- Custom styles for this template -->
   <link href="../css/freelancer.css" rel="stylesheet">
-  
+
+  <style>
+      .text-muted {
+          color: #b7c1cc !important;
+      }
+  </style>
 </head>
 
 <body id="page-top">
@@ -34,7 +39,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">JoshLmao</a>
+            <a class="navbar-brand js-scroll-trigger" href="../index.html">JoshLmao</a>
             <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>text-white
@@ -42,10 +47,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../index.html">Home</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#open-source">Open Source Projects</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#all-projects">All Projects</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#closed-source">Private Projects</a>
                 </li>
             </ul>
             </div>
@@ -101,93 +106,162 @@
         </div>
     </header>
 
-    <!-- Projects -->
-    <div class="container mt-5" id="all-projects">
+    <!-- Open Source Projects -->
+    <div class="container mt-5 mb-5">
         <a href="../index.html">
-            <button type="button" class="btn btn-primary" style="float:left;">
-                Return
+            <button type="button" class="btn btn-primary" style="float:left; position: absolute;">
+                Home
             </button>
         </a>
         <h1 class="text-center text-primary">All Projects & Work</h1>
-        <div class="row mt-4">
-            <div class="card-columns">
-                <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/600" alt="Card image cap">
+
+        <h3 class="text-center text-primary" id="open-source">Open Source Projects</h3>
+
+        <div class="row mt-4 text-primary">
+            <div class="card-deck">
+                <!-- Genify - (01/19) -->
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="https://via.placeholder.com/900x600">
                     <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Genify (WIP)</h5>
+                        <p class="card-text">
+                            As I want to improve my website creating skills, I wanted to make a site that allows people to view their current playing song in Spotify and 
+                            displays it's lyrics from Genius, the lyric's website.
+                            <br/>
+                            <br/>
+                            <b>Website: </b><a href="https://genify.joshlmao.com/" target="_blank">Genify.joshlmao.com</a>
+                        </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Created January 2019</small>
                     </div>  
                 </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/600" alt="Card image cap">
+                <!-- Artifact Match History - (12/18) -->
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="../img/portfolio/artifacthistory.png">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        
+                        <h5 class="card-title">Artifact Match History</h5>
+                        <p class="card-text">
+                            I created a match history viewer for Artifact in Windows Presentation Foundation (WPF) since the game didn't have one at the time. 
+                            I originally created one in WPF since I wasn't experienced in websites, however, I then went on to research and find out about setting one up.
+                            <br/>
+                            <br/>
+                            <b>Website: </b><a href="https://artifacthistory.joshlmao.com/" target="_blank">ArtifactHistory.joshlmao.com</a>
+                            <br/>
+                            <b>Download: </b><a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory/releases" target="_blank">Releases</a>
+                            <br/>
+                            <b>WPF Repository: </b><a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory" target="_blank">GitHub</a>
+                            <br/>
+                            <b>Website Repository: </b><a href="https://github.com/JoshLmao/ArtifactAPI.MatchHistory.Website" target="_blank">GitHub</a>
+                        </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Created December 2018</small>
                     </div>  
                 </div>
-                <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
+                <!-- Response Bot - (09/17) -->
+                <div class="card bg-primary">
+                    <img class="card-img" src="../img/portfolio/responsebot.png" alt="Card image">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Witcher Response Bot</h5>
+                        <p class="card-text">
+                            This project was created in response to the Gwent standalone game's release. The <a href="https://reddit.com/r/Gwent" target="">Gwent subreddit</a> at the time
+                            didn't have a bot that could automatically reply to user's comments if they quote a voice line from the game. This bot idea comes as inspiration from 
+                            <a href="https://github.com/Jonarzz/DotaResponsesRedditBot" target="">/r/DotA2 responses bot</a>, as that is a valuable asset to the community, I wanted to do the same.
+                            <br/><br/>
+                            <b>Repository: </b><a href="https://github.com/JoshLmao/WitcherResponsesBot" target="_blank">Github</a>
+                        </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Created September 2017</small>
                     </div>  
                 </div>
-                <div class="card">
-                    <img class="card-img" src="https://via.placeholder.com/600" alt="Card image">
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>  
-                </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>  
-                </div>
+                
             </div>
         </div>
+
+        <div class="row mt-4 text-primary">
+            <div class="card-deck">
+                <!-- Lumiere - (07/17) -->
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="../img/portfolio/lumiere.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Lumière</h5>
+                        <p class="card-text">
+                            Lumière was created as part of my entry for the Ludum Dare 39 game jam in August 2017. The theme of this game jam was "Running out of power".
+                            The whole game was created by myself in 48 hours over one weekend. The idea of the game was to create an endless runner that used power to run,
+                            however the player gained power when killing enemies, which also increased their score.
+                            <br/><br/>
+                            <b>Play: </b><a href="https://joshlmao.itch.io/lumiere" target="_blank">Itch.io</a>
+                            <br/>
+                            <b>Repository: </b><a href="https://github.com/JoshLmao/Lumiere" target="_blank">Github</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Created July 2017</small>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Private/Closed Source projects -->
+    <div class="container mt-5 mb-5" id="closed-source">
+        <h3 class="text-center text-primary">Private Projects</h3>
+        <div class="row mt-4">
+            <div class="card-deck text-primary">
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="../img/portfolio/spotify4unity.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotify 4 Unity</h5>
+                        <p class="card-text">
+                            This is a Unity asset that I created when I realised there is next to no connectivity between Unity and Spotify. I'm a big fan of Spotify
+                            and love to use the service so I worked on creating an easy way for people to use the open source <a href="" target="_blank">SpotifyAPI</a>
+                            inside the game engine, along with working UI prefabs and tools.
+                            <br/><br/>
+                            <b>Asset Store: </b><a href="https://assetstore.unity.com/packages/tools/integration/spotify4unity-ui-tools-spotify-authorization-129028" target="_blank">Download</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Created October 2018</small>
+                    </div>
+                </div>
+
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="../img/portfolio/weave.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Weave: The Game</h5>
+                        <p class="card-text">
+                            This is the first mobile game I created. It's a simple concept with a ball and obstacles that requires the player to try to get as much score as possible, using upgrades
+                            and abilities to beat other players in the world. The game has it's own leaderboard which tracks any high scores.
+                            <br/><br/>
+                            <b>Download: </b><a href="https://play.google.com/store/apps/details?id=com.JoshLmao.Weave&hl=en_GB" target="_blank">Play Store</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Created September 2018</small>
+                    </div>
+                </div>
+
+                <div class="card bg-primary">
+                    <img class="card-img-top" src="../img/portfolio/dotaclicker.png">
+                    <div class="card-body">
+                        <h5 class="card-title">DotA Clicker VR</h5>
+                        <p class="card-text">
+                            This was my very first attempt at creating a VR game, and one of my first games inside Unity. It is currently unreleased and is not being worked on.
+                            <br/>
+                            I wanted to create a game in VR that was a unique game idea with a twist, so I combined clicker games with my favorite game, DotA 2. 
+                            I added achievements, statistic tracking, buying new clickers (heroes), buying items, all in VR using models and textures from the game.
+                            <br/><br/>
+                            <b>Preview: </b><a href="https://www.youtube.com/watch?v=mZWSmosu5DM" target="_blank">YouTube</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Created September 2017</small>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </div>
 
     <div class="copyright py-4 text-center text-white">
